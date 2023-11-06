@@ -1,6 +1,17 @@
-body{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height:100vh;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#heart {
+  animation: myHeart 3s linear infinite;
+}
+@keyframes myHeart {
+  from {
+    translate: 0 1rem;
+  }
+  to {
+    translate: 0 -1rem;
+  }
 }
