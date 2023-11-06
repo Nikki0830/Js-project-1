@@ -39,7 +39,7 @@ html {
   transition: left 0.8s;
 }
 
-.container.change .banner {
+.container.chng .banner {
     left: 5rem;
   }
 .banner h1 {
@@ -61,7 +61,7 @@ html {
   transition: width 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 /* adding script code */
-.container.change .green-bg {
+.container.chng .green-bg {
   width: 40%;
 }
 .green-bg button {
