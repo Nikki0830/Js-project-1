@@ -9,14 +9,29 @@ body {
   transform-box: fill-box;
   transform-origin: bottom;
 }
+.plant {
+  animation: myPlant 3s linear infinite;
+  transform-box: fill-box;
+  transform-origin: bottom;
+  /* color: blue; */
+}
 @keyframes myHeart {
   from {
     translate: 0 1rem;
-    scale:.8;
-
+    scale: 0.8;
   }
   to {
     translate: 0 -1rem;
-    scale:.5;
+    scale: 0.5;
   }
 }
+@keyframes myPlant {
+    from {
+      /* translate: 0 1rem; */
+      scale: .8;
+    }
+    to {
+      /* translate: 0 -1rem; */
+      scale: 1.8;
+    }
+  }
