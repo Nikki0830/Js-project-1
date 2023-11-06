@@ -6,12 +6,17 @@ body {
 }
 #heart {
   animation: myHeart 3s linear infinite;
+  transform-box: fill-box;
+  transform-origin: bottom;
 }
 @keyframes myHeart {
   from {
     translate: 0 1rem;
+    scale:.8;
+
   }
   to {
     translate: 0 -1rem;
+    scale:.5;
   }
 }
